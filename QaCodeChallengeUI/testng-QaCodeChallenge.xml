@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="QaCodeChallenge">
+  <test name="Challenges">
+    <classes>
+      <class name="CodeChallenges.LoginPage"/>
+      <class name="CodeChallenges.ExitIntent"/>
+      <class name="CodeChallenges.TableLastName"/>
+      <class name="CodeChallenges.TableFirstName"/>
+      <class name="CodeChallenges.NewBrowserTab"/>
+      <class name="CodeChallenges.DynamicControls"/>
+ 	</classes>
+  </test> 
+</suite>

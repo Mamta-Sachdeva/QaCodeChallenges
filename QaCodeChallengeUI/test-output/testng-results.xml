@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-08T10:54:08 MST" name="QaCodeChallenge" finished-at="2021-02-08T10:55:22 MST" duration-ms="73922">
+    <groups>
+    </groups>
+    <test started-at="2021-02-08T10:54:08 MST" name="Challenges" finished-at="2021-02-08T10:55:22 MST" duration-ms="73922">
+      <class name="CodeChallenges.TableLastName">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:CodeChallenges.TableLastName@41e36e46]" started-at="2021-02-08T10:54:36 MST" name="setUpTest" finished-at="2021-02-08T10:54:39 MST" duration-ms="3373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="lastNameSortingTest()[pri:0, instance:CodeChallenges.TableLastName@41e36e46]" started-at="2021-02-08T10:54:39 MST" name="lastNameSortingTest" finished-at="2021-02-08T10:54:45 MST" duration-ms="6074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastNameSortingTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CodeChallenges.TableLastName@41e36e46]" started-at="2021-02-08T10:54:45 MST" name="tearDown" finished-at="2021-02-08T10:54:46 MST" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CodeChallenges.TableLastName -->
+      <class name="CodeChallenges.ExitIntent">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:CodeChallenges.ExitIntent@76508ed1]" started-at="2021-02-08T10:54:27 MST" name="setUpTest" finished-at="2021-02-08T10:54:31 MST" duration-ms="3741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="popUpWindowTest()[pri:0, instance:CodeChallenges.ExitIntent@76508ed1]" started-at="2021-02-08T10:54:31 MST" name="popUpWindowTest" finished-at="2021-02-08T10:54:35 MST" duration-ms="3906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popUpWindowTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CodeChallenges.ExitIntent@76508ed1]" started-at="2021-02-08T10:54:35 MST" name="tearDown" finished-at="2021-02-08T10:54:36 MST" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CodeChallenges.ExitIntent -->
+      <class name="CodeChallenges.TableFirstName">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:CodeChallenges.TableFirstName@15c43bd9]" started-at="2021-02-08T10:54:46 MST" name="setUpTest" finished-at="2021-02-08T10:54:49 MST" duration-ms="3138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="firstNameSortingTest()[pri:0, instance:CodeChallenges.TableFirstName@15c43bd9]" started-at="2021-02-08T10:54:49 MST" name="firstNameSortingTest" finished-at="2021-02-08T10:54:55 MST" duration-ms="6013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstNameSortingTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CodeChallenges.TableFirstName@15c43bd9]" started-at="2021-02-08T10:54:55 MST" name="tearDown" finished-at="2021-02-08T10:54:56 MST" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CodeChallenges.TableFirstName -->
+      <class name="CodeChallenges.LoginPage">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:CodeChallenges.LoginPage@4facf68f]" started-at="2021-02-08T10:54:08 MST" name="setUpTest" finished-at="2021-02-08T10:54:18 MST" duration-ms="9417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="loginSuccessTest()[pri:1, instance:CodeChallenges.LoginPage@4facf68f]" started-at="2021-02-08T10:54:18 MST" name="loginSuccessTest" finished-at="2021-02-08T10:54:24 MST" duration-ms="5945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessTest -->
+        <test-method signature="loginErrorTest()[pri:2, instance:CodeChallenges.LoginPage@4facf68f]" started-at="2021-02-08T10:54:24 MST" name="loginErrorTest" finished-at="2021-02-08T10:54:27 MST" duration-ms="3674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:CodeChallenges.LoginPage@4facf68f]" started-at="2021-02-08T10:55:22 MST" name="tearDownTest" finished-at="2021-02-08T10:55:22 MST" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- CodeChallenges.LoginPage -->
+      <class name="CodeChallenges.DynamicControls">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:CodeChallenges.DynamicControls@4f209819]" started-at="2021-02-08T10:55:06 MST" name="setUp" finished-at="2021-02-08T10:55:09 MST" duration-ms="3350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enableAndDiasableTest()[pri:0, instance:CodeChallenges.DynamicControls@4f209819]" started-at="2021-02-08T10:55:09 MST" name="enableAndDiasableTest" finished-at="2021-02-08T10:55:20 MST" duration-ms="11452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enableAndDiasableTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CodeChallenges.DynamicControls@4f209819]" started-at="2021-02-08T10:55:20 MST" name="tearDown" finished-at="2021-02-08T10:55:22 MST" duration-ms="1071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CodeChallenges.DynamicControls -->
+      <class name="CodeChallenges.NewBrowserTab">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:CodeChallenges.NewBrowserTab@3d74bf60]" started-at="2021-02-08T10:54:56 MST" name="setUpTest" finished-at="2021-02-08T10:54:59 MST" duration-ms="3214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="newWindowTest()[pri:0, instance:CodeChallenges.NewBrowserTab@3d74bf60]" started-at="2021-02-08T10:54:59 MST" name="newWindowTest" finished-at="2021-02-08T10:55:05 MST" duration-ms="5727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newWindowTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CodeChallenges.NewBrowserTab@3d74bf60]" started-at="2021-02-08T10:55:05 MST" name="tearDown" finished-at="2021-02-08T10:55:06 MST" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CodeChallenges.NewBrowserTab -->
+    </test> <!-- Challenges -->
+  </suite> <!-- QaCodeChallenge -->
+</testng-results>
